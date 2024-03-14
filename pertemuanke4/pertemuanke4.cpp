@@ -19,7 +19,7 @@ void InsertionSort() {
             j--; //step 4b
 
         }
-
+        arr[j + 1] = temp; //step 5
     }
 }
 int main()

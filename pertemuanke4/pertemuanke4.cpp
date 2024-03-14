@@ -15,7 +15,8 @@ void InsertionSort() {
 
         while (j >= 0 && arr[j] > temp) // step 4
         {
-            
+            arr[j] = arr[j + 1]; //step 4a
+
         }
 
     }
